@@ -1,0 +1,21 @@
+Challenge1
+
+let mark = parseInt(prompt("Enter the student's mark (between 0 and 100):"));
+
+if (mark > 79) {
+  grade = 'A';
+} else if (mark >= 60 && mark <= 79) {
+  grade = 'B';
+} else if (mark >= 50 && mark <= 59) {
+  grade = 'C';
+} else if (mark >= 40 && mark <= 49) {
+  grade = 'D';
+} else {
+  grade = 'E';
+}
+
+console.log(`The student's grade is ${grade}`);
+
+
+
+
